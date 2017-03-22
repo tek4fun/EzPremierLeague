@@ -7,14 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E3708FF1E825C2000976930 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3708FE1E825C2000976930 /* TabBarVC.swift */; };
 		1E486C291E76831200ECC1E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E486C281E76831200ECC1E9 /* AppDelegate.swift */; };
 		1E486C2B1E76831200ECC1E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E486C2A1E76831200ECC1E9 /* ViewController.swift */; };
 		1E486C2E1E76831200ECC1E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E486C2C1E76831200ECC1E9 /* Main.storyboard */; };
 		1E486C301E76831200ECC1E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E486C2F1E76831200ECC1E9 /* Assets.xcassets */; };
 		1E486C331E76831200ECC1E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E486C311E76831200ECC1E9 /* LaunchScreen.storyboard */; };
+		1E7D85A01E7F8244004AAEB3 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7D859F1E7F8244004AAEB3 /* Match.swift */; };
+		1E7D85A31E7FBE70004AAEB3 /* DetailMatchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7D85A21E7FBE70004AAEB3 /* DetailMatchCell.swift */; };
+		1E7D85B91E7FCB1A004AAEB3 /* Bournemouth.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85A51E7FCB1A004AAEB3 /* Bournemouth.png */; };
+		1E7D85BA1E7FCB1A004AAEB3 /* Arsenal.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85A61E7FCB1A004AAEB3 /* Arsenal.png */; };
+		1E7D85BB1E7FCB1A004AAEB3 /* Burnley.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85A71E7FCB1A004AAEB3 /* Burnley.png */; };
+		1E7D85BC1E7FCB1A004AAEB3 /* Chelsea.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85A81E7FCB1A004AAEB3 /* Chelsea.png */; };
+		1E7D85BD1E7FCB1A004AAEB3 /* Crystal Palace.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85A91E7FCB1A004AAEB3 /* Crystal Palace.png */; };
+		1E7D85BE1E7FCB1A004AAEB3 /* Everton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85AA1E7FCB1A004AAEB3 /* Everton.png */; };
+		1E7D85BF1E7FCB1A004AAEB3 /* Hull.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85AB1E7FCB1A004AAEB3 /* Hull.png */; };
+		1E7D85C01E7FCB1A004AAEB3 /* Leicester.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85AC1E7FCB1A004AAEB3 /* Leicester.png */; };
+		1E7D85C11E7FCB1A004AAEB3 /* Liverpool.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85AD1E7FCB1A004AAEB3 /* Liverpool.png */; };
+		1E7D85C21E7FCB1A004AAEB3 /* Manchester City.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85AE1E7FCB1A004AAEB3 /* Manchester City.png */; };
+		1E7D85C31E7FCB1A004AAEB3 /* Manchester United.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85AF1E7FCB1A004AAEB3 /* Manchester United.png */; };
+		1E7D85C41E7FCB1A004AAEB3 /* Middlesbrough.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85B01E7FCB1A004AAEB3 /* Middlesbrough.png */; };
+		1E7D85C51E7FCB1A004AAEB3 /* Southampton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85B11E7FCB1A004AAEB3 /* Southampton.png */; };
+		1E7D85C61E7FCB1A004AAEB3 /* Stoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85B21E7FCB1A004AAEB3 /* Stoke.png */; };
+		1E7D85C71E7FCB1A004AAEB3 /* Sunderland.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85B31E7FCB1A004AAEB3 /* Sunderland.png */; };
+		1E7D85C81E7FCB1A004AAEB3 /* Swansea_City.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85B41E7FCB1A004AAEB3 /* Swansea_City.png */; };
+		1E7D85C91E7FCB1A004AAEB3 /* Tottenham.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85B51E7FCB1A004AAEB3 /* Tottenham.png */; };
+		1E7D85CA1E7FCB1A004AAEB3 /* Watford.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85B61E7FCB1A004AAEB3 /* Watford.png */; };
+		1E7D85CB1E7FCB1A004AAEB3 /* West Bromwich Albion.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85B71E7FCB1A004AAEB3 /* West Bromwich Albion.png */; };
+		1E7D85CC1E7FCB1A004AAEB3 /* West Ham.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85B81E7FCB1A004AAEB3 /* West Ham.png */; };
+		C595F442FB42494A27B58223 /* Pods_EzPremierLeague.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11ABD21B0BC3DA5E26B7FBF2 /* Pods_EzPremierLeague.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11ABD21B0BC3DA5E26B7FBF2 /* Pods_EzPremierLeague.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EzPremierLeague.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E3708FE1E825C2000976930 /* TabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		1E3709081E825FE200976930 /* EzPremierLeague-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EzPremierLeague-Bridging-Header.h"; sourceTree = "<group>"; };
 		1E486C251E76831200ECC1E9 /* EzPremierLeague.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzPremierLeague.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E486C281E76831200ECC1E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E486C2A1E76831200ECC1E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +49,30 @@
 		1E486C2F1E76831200ECC1E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E486C321E76831200ECC1E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E486C341E76831200ECC1E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E7D859F1E7F8244004AAEB3 /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		1E7D85A21E7FBE70004AAEB3 /* DetailMatchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailMatchCell.swift; sourceTree = "<group>"; };
+		1E7D85A51E7FCB1A004AAEB3 /* Bournemouth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bournemouth.png; sourceTree = "<group>"; };
+		1E7D85A61E7FCB1A004AAEB3 /* Arsenal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arsenal.png; sourceTree = "<group>"; };
+		1E7D85A71E7FCB1A004AAEB3 /* Burnley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Burnley.png; sourceTree = "<group>"; };
+		1E7D85A81E7FCB1A004AAEB3 /* Chelsea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chelsea.png; sourceTree = "<group>"; };
+		1E7D85A91E7FCB1A004AAEB3 /* Crystal Palace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Crystal Palace.png"; sourceTree = "<group>"; };
+		1E7D85AA1E7FCB1A004AAEB3 /* Everton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Everton.png; sourceTree = "<group>"; };
+		1E7D85AB1E7FCB1A004AAEB3 /* Hull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hull.png; sourceTree = "<group>"; };
+		1E7D85AC1E7FCB1A004AAEB3 /* Leicester.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Leicester.png; sourceTree = "<group>"; };
+		1E7D85AD1E7FCB1A004AAEB3 /* Liverpool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Liverpool.png; sourceTree = "<group>"; };
+		1E7D85AE1E7FCB1A004AAEB3 /* Manchester City.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Manchester City.png"; sourceTree = "<group>"; };
+		1E7D85AF1E7FCB1A004AAEB3 /* Manchester United.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Manchester United.png"; sourceTree = "<group>"; };
+		1E7D85B01E7FCB1A004AAEB3 /* Middlesbrough.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Middlesbrough.png; sourceTree = "<group>"; };
+		1E7D85B11E7FCB1A004AAEB3 /* Southampton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Southampton.png; sourceTree = "<group>"; };
+		1E7D85B21E7FCB1A004AAEB3 /* Stoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stoke.png; sourceTree = "<group>"; };
+		1E7D85B31E7FCB1A004AAEB3 /* Sunderland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sunderland.png; sourceTree = "<group>"; };
+		1E7D85B41E7FCB1A004AAEB3 /* Swansea_City.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Swansea_City.png; sourceTree = "<group>"; };
+		1E7D85B51E7FCB1A004AAEB3 /* Tottenham.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tottenham.png; sourceTree = "<group>"; };
+		1E7D85B61E7FCB1A004AAEB3 /* Watford.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Watford.png; sourceTree = "<group>"; };
+		1E7D85B71E7FCB1A004AAEB3 /* West Bromwich Albion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "West Bromwich Albion.png"; sourceTree = "<group>"; };
+		1E7D85B81E7FCB1A004AAEB3 /* West Ham.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "West Ham.png"; sourceTree = "<group>"; };
+		6CCFA472DB052EC2471DAC2A /* Pods-EzPremierLeague.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EzPremierLeague.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EzPremierLeague/Pods-EzPremierLeague.debug.xcconfig"; sourceTree = "<group>"; };
+		8B3B336970082ACD062BA7D7 /* Pods-EzPremierLeague.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EzPremierLeague.release.xcconfig"; path = "Pods/Target Support Files/Pods-EzPremierLeague/Pods-EzPremierLeague.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C595F442FB42494A27B58223 /* Pods_EzPremierLeague.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +92,8 @@
 			children = (
 				1E486C271E76831200ECC1E9 /* EzPremierLeague */,
 				1E486C261E76831200ECC1E9 /* Products */,
+				8C67EB92BD9F493D39333D0E /* Pods */,
+				8AAF8A7B5FCF1310C553961F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +108,79 @@
 		1E486C271E76831200ECC1E9 /* EzPremierLeague */ = {
 			isa = PBXGroup;
 			children = (
+				1E7D85A41E7FCB09004AAEB3 /* Resource */,
+				1E7D85A11E7FBE31004AAEB3 /* Custom View */,
+				1E7D859E1E7F822B004AAEB3 /* Model */,
 				1E486C281E76831200ECC1E9 /* AppDelegate.swift */,
 				1E486C2A1E76831200ECC1E9 /* ViewController.swift */,
 				1E486C2C1E76831200ECC1E9 /* Main.storyboard */,
 				1E486C2F1E76831200ECC1E9 /* Assets.xcassets */,
 				1E486C311E76831200ECC1E9 /* LaunchScreen.storyboard */,
 				1E486C341E76831200ECC1E9 /* Info.plist */,
+				1E3708FE1E825C2000976930 /* TabBarVC.swift */,
+				1E3709081E825FE200976930 /* EzPremierLeague-Bridging-Header.h */,
 			);
 			path = EzPremierLeague;
+			sourceTree = "<group>";
+		};
+		1E7D859E1E7F822B004AAEB3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E7D859F1E7F8244004AAEB3 /* Match.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1E7D85A11E7FBE31004AAEB3 /* Custom View */ = {
+			isa = PBXGroup;
+			children = (
+				1E7D85A21E7FBE70004AAEB3 /* DetailMatchCell.swift */,
+			);
+			name = "Custom View";
+			sourceTree = "<group>";
+		};
+		1E7D85A41E7FCB09004AAEB3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1E7D85A51E7FCB1A004AAEB3 /* Bournemouth.png */,
+				1E7D85A61E7FCB1A004AAEB3 /* Arsenal.png */,
+				1E7D85A71E7FCB1A004AAEB3 /* Burnley.png */,
+				1E7D85A81E7FCB1A004AAEB3 /* Chelsea.png */,
+				1E7D85A91E7FCB1A004AAEB3 /* Crystal Palace.png */,
+				1E7D85AA1E7FCB1A004AAEB3 /* Everton.png */,
+				1E7D85AB1E7FCB1A004AAEB3 /* Hull.png */,
+				1E7D85AC1E7FCB1A004AAEB3 /* Leicester.png */,
+				1E7D85AD1E7FCB1A004AAEB3 /* Liverpool.png */,
+				1E7D85AE1E7FCB1A004AAEB3 /* Manchester City.png */,
+				1E7D85AF1E7FCB1A004AAEB3 /* Manchester United.png */,
+				1E7D85B01E7FCB1A004AAEB3 /* Middlesbrough.png */,
+				1E7D85B11E7FCB1A004AAEB3 /* Southampton.png */,
+				1E7D85B21E7FCB1A004AAEB3 /* Stoke.png */,
+				1E7D85B31E7FCB1A004AAEB3 /* Sunderland.png */,
+				1E7D85B41E7FCB1A004AAEB3 /* Swansea_City.png */,
+				1E7D85B51E7FCB1A004AAEB3 /* Tottenham.png */,
+				1E7D85B61E7FCB1A004AAEB3 /* Watford.png */,
+				1E7D85B71E7FCB1A004AAEB3 /* West Bromwich Albion.png */,
+				1E7D85B81E7FCB1A004AAEB3 /* West Ham.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		8AAF8A7B5FCF1310C553961F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11ABD21B0BC3DA5E26B7FBF2 /* Pods_EzPremierLeague.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C67EB92BD9F493D39333D0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CCFA472DB052EC2471DAC2A /* Pods-EzPremierLeague.debug.xcconfig */,
+				8B3B336970082ACD062BA7D7 /* Pods-EzPremierLeague.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E486C371E76831200ECC1E9 /* Build configuration list for PBXNativeTarget "EzPremierLeague" */;
 			buildPhases = (
+				B6BF0A3A0004FA3CD48959B8 /* [CP] Check Pods Manifest.lock */,
 				1E486C211E76831200ECC1E9 /* Sources */,
 				1E486C221E76831200ECC1E9 /* Frameworks */,
 				1E486C231E76831200ECC1E9 /* Resources */,
+				A3BB467A6C081B6E3E031812 /* [CP] Embed Pods Frameworks */,
+				5CB459FA388412E6F611637E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +218,7 @@
 				TargetAttributes = {
 					1E486C241E76831200ECC1E9 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,21 +246,92 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E7D85C31E7FCB1A004AAEB3 /* Manchester United.png in Resources */,
+				1E7D85CA1E7FCB1A004AAEB3 /* Watford.png in Resources */,
+				1E7D85CB1E7FCB1A004AAEB3 /* West Bromwich Albion.png in Resources */,
+				1E7D85B91E7FCB1A004AAEB3 /* Bournemouth.png in Resources */,
+				1E7D85BB1E7FCB1A004AAEB3 /* Burnley.png in Resources */,
+				1E7D85BA1E7FCB1A004AAEB3 /* Arsenal.png in Resources */,
+				1E7D85C51E7FCB1A004AAEB3 /* Southampton.png in Resources */,
 				1E486C331E76831200ECC1E9 /* LaunchScreen.storyboard in Resources */,
+				1E7D85C21E7FCB1A004AAEB3 /* Manchester City.png in Resources */,
+				1E7D85C11E7FCB1A004AAEB3 /* Liverpool.png in Resources */,
+				1E7D85C91E7FCB1A004AAEB3 /* Tottenham.png in Resources */,
+				1E7D85BD1E7FCB1A004AAEB3 /* Crystal Palace.png in Resources */,
+				1E7D85BF1E7FCB1A004AAEB3 /* Hull.png in Resources */,
 				1E486C301E76831200ECC1E9 /* Assets.xcassets in Resources */,
+				1E7D85C71E7FCB1A004AAEB3 /* Sunderland.png in Resources */,
 				1E486C2E1E76831200ECC1E9 /* Main.storyboard in Resources */,
+				1E7D85C81E7FCB1A004AAEB3 /* Swansea_City.png in Resources */,
+				1E7D85C01E7FCB1A004AAEB3 /* Leicester.png in Resources */,
+				1E7D85C61E7FCB1A004AAEB3 /* Stoke.png in Resources */,
+				1E7D85CC1E7FCB1A004AAEB3 /* West Ham.png in Resources */,
+				1E7D85BE1E7FCB1A004AAEB3 /* Everton.png in Resources */,
+				1E7D85C41E7FCB1A004AAEB3 /* Middlesbrough.png in Resources */,
+				1E7D85BC1E7FCB1A004AAEB3 /* Chelsea.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5CB459FA388412E6F611637E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EzPremierLeague/Pods-EzPremierLeague-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3BB467A6C081B6E3E031812 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EzPremierLeague/Pods-EzPremierLeague-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6BF0A3A0004FA3CD48959B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1E486C211E76831200ECC1E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E7D85A31E7FBE70004AAEB3 /* DetailMatchCell.swift in Sources */,
 				1E486C2B1E76831200ECC1E9 /* ViewController.swift in Sources */,
+				1E3708FF1E825C2000976930 /* TabBarVC.swift in Sources */,
 				1E486C291E76831200ECC1E9 /* AppDelegate.swift in Sources */,
+				1E7D85A01E7F8244004AAEB3 /* Match.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,24 +452,31 @@
 		};
 		1E486C381E76831200ECC1E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CCFA472DB052EC2471DAC2A /* Pods-EzPremierLeague.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = EzPremierLeague/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vn.techmaster.EzPremierLeague;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EzPremierLeague/EzPremierLeague-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		1E486C391E76831200ECC1E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B3B336970082ACD062BA7D7 /* Pods-EzPremierLeague.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = EzPremierLeague/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vn.techmaster.EzPremierLeague;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EzPremierLeague/EzPremierLeague-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -299,6 +500,7 @@
 				1E486C391E76831200ECC1E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

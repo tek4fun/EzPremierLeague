@@ -7,16 +7,19 @@
 //
 
 import UIKit
-let baseUrl : String! = "https://heisenbug-premier-league-live-scores-v1.p.mashape.com/api/premierleague?matchday=1&season=2016-17"
-class ViewController: UIViewController {
 
+//import BFPaperTabBarController
+
+let baseUrl : String! = "https://heisenbug-premier-league-live-scores-v1.p.mashape.com/api/premierleague?"
+class ViewController: UIViewController {
+    var informations = [Match]()
     override func viewDidLoad() {
         super.viewDidLoad()
         getData()
     }
     //Mark: Get Data Request
     func getData() {
-        var urlRequest = URLRequest(url: URL(string: baseUrl)!)
+        var urlRequest = URLRequest(url: URL(string: baseUrl+"matchday=1&season=2016-17")!)
         urlRequest.setValue("khH3Nrssr5mshuAmXyBC241TJS7lp1ctzcFjsnyRrlumX2dl0c", forHTTPHeaderField: "X-Mashape-Key")
         urlRequest.addValue("application/json", forHTTPHeaderField: "Accept")
         urlRequest.httpMethod = "GET"
@@ -31,13 +34,17 @@ class ViewController: UIViewController {
                     if responseHTTP.statusCode == 200 {
                         guard let information = data else { return}
                         do {
-                            let result = try JSONSerialization.jsonObject(with: information, options: .allowFragments) as! NSDictionary
+                            let result = try JSONSerialization.jsonObject(with: information, options: .allowFragments) as AnyObject  //NSDictionary
 
                             if let arrayResult = result.value(forKey: "matches"){
 
-                                for infoDict in arrayResult as! [NSDictionary]{
-                                    print(infoDict.value(forKey: "referee")!)
-                                    print(infoDict.value(forKey: "team1")!)
+                                for infoDict in arrayResult as! [AnyObject] //[NSDictionary]{
+                                {
+                                    if let infoDict = infoDict as? [String : AnyObject]{
+                                    //print(infoDict.value(forKey: "referee")!)
+                                    //print(infoDict.value(forKey: "team1")!)
+                                    self.informations.append(Match(information: infoDict))
+                                    }
                                 }
                             }
                         }catch let error {

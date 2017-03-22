@@ -1,0 +1,12 @@
+PODS:
+  - BFPaperTabBarController (2.2.6)
+
+DEPENDENCIES:
+  - BFPaperTabBarController
+
+SPEC CHECKSUMS:
+  BFPaperTabBarController: b8e844b72c7063adbf498b92a09a5ba49249877a
+
+PODFILE CHECKSUM: 45dc1bf9d2c274e0a59c8c8af78f82c3cc896bf8
+
+COCOAPODS: 1.2.0
