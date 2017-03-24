@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		1E3708FF1E825C2000976930 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3708FE1E825C2000976930 /* TabBarVC.swift */; };
 		1E486C291E76831200ECC1E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E486C281E76831200ECC1E9 /* AppDelegate.swift */; };
-		1E486C2B1E76831200ECC1E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E486C2A1E76831200ECC1E9 /* ViewController.swift */; };
 		1E486C2E1E76831200ECC1E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E486C2C1E76831200ECC1E9 /* Main.storyboard */; };
 		1E486C301E76831200ECC1E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E486C2F1E76831200ECC1E9 /* Assets.xcassets */; };
 		1E486C331E76831200ECC1E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E486C311E76831200ECC1E9 /* LaunchScreen.storyboard */; };
+		1E61C2371E84D3F300621406 /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E61C2361E84D3F300621406 /* CalendarVC.swift */; };
 		1E7D85A01E7F8244004AAEB3 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7D859F1E7F8244004AAEB3 /* Match.swift */; };
 		1E7D85A31E7FBE70004AAEB3 /* DetailMatchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7D85A21E7FBE70004AAEB3 /* DetailMatchCell.swift */; };
 		1E7D85B91E7FCB1A004AAEB3 /* Bournemouth.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85A51E7FCB1A004AAEB3 /* Bournemouth.png */; };
@@ -21,19 +21,19 @@
 		1E7D85BC1E7FCB1A004AAEB3 /* Chelsea.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85A81E7FCB1A004AAEB3 /* Chelsea.png */; };
 		1E7D85BD1E7FCB1A004AAEB3 /* Crystal Palace.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85A91E7FCB1A004AAEB3 /* Crystal Palace.png */; };
 		1E7D85BE1E7FCB1A004AAEB3 /* Everton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85AA1E7FCB1A004AAEB3 /* Everton.png */; };
-		1E7D85BF1E7FCB1A004AAEB3 /* Hull.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85AB1E7FCB1A004AAEB3 /* Hull.png */; };
-		1E7D85C01E7FCB1A004AAEB3 /* Leicester.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85AC1E7FCB1A004AAEB3 /* Leicester.png */; };
+		1E7D85BF1E7FCB1A004AAEB3 /* Hull City.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85AB1E7FCB1A004AAEB3 /* Hull City.png */; };
+		1E7D85C01E7FCB1A004AAEB3 /* Leicester City.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85AC1E7FCB1A004AAEB3 /* Leicester City.png */; };
 		1E7D85C11E7FCB1A004AAEB3 /* Liverpool.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85AD1E7FCB1A004AAEB3 /* Liverpool.png */; };
-		1E7D85C21E7FCB1A004AAEB3 /* Manchester City.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85AE1E7FCB1A004AAEB3 /* Manchester City.png */; };
-		1E7D85C31E7FCB1A004AAEB3 /* Manchester United.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85AF1E7FCB1A004AAEB3 /* Manchester United.png */; };
+		1E7D85C21E7FCB1A004AAEB3 /* Man City.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85AE1E7FCB1A004AAEB3 /* Man City.png */; };
+		1E7D85C31E7FCB1A004AAEB3 /* Man United.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85AF1E7FCB1A004AAEB3 /* Man United.png */; };
 		1E7D85C41E7FCB1A004AAEB3 /* Middlesbrough.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85B01E7FCB1A004AAEB3 /* Middlesbrough.png */; };
 		1E7D85C51E7FCB1A004AAEB3 /* Southampton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85B11E7FCB1A004AAEB3 /* Southampton.png */; };
-		1E7D85C61E7FCB1A004AAEB3 /* Stoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85B21E7FCB1A004AAEB3 /* Stoke.png */; };
+		1E7D85C61E7FCB1A004AAEB3 /* Stoke City.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85B21E7FCB1A004AAEB3 /* Stoke City.png */; };
 		1E7D85C71E7FCB1A004AAEB3 /* Sunderland.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85B31E7FCB1A004AAEB3 /* Sunderland.png */; };
-		1E7D85C81E7FCB1A004AAEB3 /* Swansea_City.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85B41E7FCB1A004AAEB3 /* Swansea_City.png */; };
+		1E7D85C81E7FCB1A004AAEB3 /* Swansea City.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85B41E7FCB1A004AAEB3 /* Swansea City.png */; };
 		1E7D85C91E7FCB1A004AAEB3 /* Tottenham.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85B51E7FCB1A004AAEB3 /* Tottenham.png */; };
 		1E7D85CA1E7FCB1A004AAEB3 /* Watford.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85B61E7FCB1A004AAEB3 /* Watford.png */; };
-		1E7D85CB1E7FCB1A004AAEB3 /* West Bromwich Albion.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85B71E7FCB1A004AAEB3 /* West Bromwich Albion.png */; };
+		1E7D85CB1E7FCB1A004AAEB3 /* West Bromwich.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85B71E7FCB1A004AAEB3 /* West Bromwich.png */; };
 		1E7D85CC1E7FCB1A004AAEB3 /* West Ham.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E7D85B81E7FCB1A004AAEB3 /* West Ham.png */; };
 		C595F442FB42494A27B58223 /* Pods_EzPremierLeague.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11ABD21B0BC3DA5E26B7FBF2 /* Pods_EzPremierLeague.framework */; };
 /* End PBXBuildFile section */
@@ -44,11 +44,11 @@
 		1E3709081E825FE200976930 /* EzPremierLeague-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EzPremierLeague-Bridging-Header.h"; sourceTree = "<group>"; };
 		1E486C251E76831200ECC1E9 /* EzPremierLeague.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzPremierLeague.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E486C281E76831200ECC1E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E486C2A1E76831200ECC1E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1E486C2D1E76831200ECC1E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E486C2F1E76831200ECC1E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E486C321E76831200ECC1E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E486C341E76831200ECC1E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E61C2361E84D3F300621406 /* CalendarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
 		1E7D859F1E7F8244004AAEB3 /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
 		1E7D85A21E7FBE70004AAEB3 /* DetailMatchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailMatchCell.swift; sourceTree = "<group>"; };
 		1E7D85A51E7FCB1A004AAEB3 /* Bournemouth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bournemouth.png; sourceTree = "<group>"; };
@@ -57,19 +57,19 @@
 		1E7D85A81E7FCB1A004AAEB3 /* Chelsea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chelsea.png; sourceTree = "<group>"; };
 		1E7D85A91E7FCB1A004AAEB3 /* Crystal Palace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Crystal Palace.png"; sourceTree = "<group>"; };
 		1E7D85AA1E7FCB1A004AAEB3 /* Everton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Everton.png; sourceTree = "<group>"; };
-		1E7D85AB1E7FCB1A004AAEB3 /* Hull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hull.png; sourceTree = "<group>"; };
-		1E7D85AC1E7FCB1A004AAEB3 /* Leicester.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Leicester.png; sourceTree = "<group>"; };
+		1E7D85AB1E7FCB1A004AAEB3 /* Hull City.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hull City.png"; sourceTree = "<group>"; };
+		1E7D85AC1E7FCB1A004AAEB3 /* Leicester City.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Leicester City.png"; sourceTree = "<group>"; };
 		1E7D85AD1E7FCB1A004AAEB3 /* Liverpool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Liverpool.png; sourceTree = "<group>"; };
-		1E7D85AE1E7FCB1A004AAEB3 /* Manchester City.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Manchester City.png"; sourceTree = "<group>"; };
-		1E7D85AF1E7FCB1A004AAEB3 /* Manchester United.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Manchester United.png"; sourceTree = "<group>"; };
+		1E7D85AE1E7FCB1A004AAEB3 /* Man City.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Man City.png"; sourceTree = "<group>"; };
+		1E7D85AF1E7FCB1A004AAEB3 /* Man United.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Man United.png"; sourceTree = "<group>"; };
 		1E7D85B01E7FCB1A004AAEB3 /* Middlesbrough.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Middlesbrough.png; sourceTree = "<group>"; };
 		1E7D85B11E7FCB1A004AAEB3 /* Southampton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Southampton.png; sourceTree = "<group>"; };
-		1E7D85B21E7FCB1A004AAEB3 /* Stoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stoke.png; sourceTree = "<group>"; };
+		1E7D85B21E7FCB1A004AAEB3 /* Stoke City.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stoke City.png"; sourceTree = "<group>"; };
 		1E7D85B31E7FCB1A004AAEB3 /* Sunderland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sunderland.png; sourceTree = "<group>"; };
-		1E7D85B41E7FCB1A004AAEB3 /* Swansea_City.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Swansea_City.png; sourceTree = "<group>"; };
+		1E7D85B41E7FCB1A004AAEB3 /* Swansea City.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Swansea City.png"; sourceTree = "<group>"; };
 		1E7D85B51E7FCB1A004AAEB3 /* Tottenham.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tottenham.png; sourceTree = "<group>"; };
 		1E7D85B61E7FCB1A004AAEB3 /* Watford.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Watford.png; sourceTree = "<group>"; };
-		1E7D85B71E7FCB1A004AAEB3 /* West Bromwich Albion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "West Bromwich Albion.png"; sourceTree = "<group>"; };
+		1E7D85B71E7FCB1A004AAEB3 /* West Bromwich.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "West Bromwich.png"; sourceTree = "<group>"; };
 		1E7D85B81E7FCB1A004AAEB3 /* West Ham.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "West Ham.png"; sourceTree = "<group>"; };
 		6CCFA472DB052EC2471DAC2A /* Pods-EzPremierLeague.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EzPremierLeague.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EzPremierLeague/Pods-EzPremierLeague.debug.xcconfig"; sourceTree = "<group>"; };
 		8B3B336970082ACD062BA7D7 /* Pods-EzPremierLeague.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EzPremierLeague.release.xcconfig"; path = "Pods/Target Support Files/Pods-EzPremierLeague/Pods-EzPremierLeague.release.xcconfig"; sourceTree = "<group>"; };
@@ -112,13 +112,13 @@
 				1E7D85A11E7FBE31004AAEB3 /* Custom View */,
 				1E7D859E1E7F822B004AAEB3 /* Model */,
 				1E486C281E76831200ECC1E9 /* AppDelegate.swift */,
-				1E486C2A1E76831200ECC1E9 /* ViewController.swift */,
 				1E486C2C1E76831200ECC1E9 /* Main.storyboard */,
 				1E486C2F1E76831200ECC1E9 /* Assets.xcassets */,
 				1E486C311E76831200ECC1E9 /* LaunchScreen.storyboard */,
 				1E486C341E76831200ECC1E9 /* Info.plist */,
 				1E3708FE1E825C2000976930 /* TabBarVC.swift */,
 				1E3709081E825FE200976930 /* EzPremierLeague-Bridging-Header.h */,
+				1E61C2361E84D3F300621406 /* CalendarVC.swift */,
 			);
 			path = EzPremierLeague;
 			sourceTree = "<group>";
@@ -148,19 +148,19 @@
 				1E7D85A81E7FCB1A004AAEB3 /* Chelsea.png */,
 				1E7D85A91E7FCB1A004AAEB3 /* Crystal Palace.png */,
 				1E7D85AA1E7FCB1A004AAEB3 /* Everton.png */,
-				1E7D85AB1E7FCB1A004AAEB3 /* Hull.png */,
-				1E7D85AC1E7FCB1A004AAEB3 /* Leicester.png */,
+				1E7D85AB1E7FCB1A004AAEB3 /* Hull City.png */,
+				1E7D85AC1E7FCB1A004AAEB3 /* Leicester City.png */,
 				1E7D85AD1E7FCB1A004AAEB3 /* Liverpool.png */,
-				1E7D85AE1E7FCB1A004AAEB3 /* Manchester City.png */,
-				1E7D85AF1E7FCB1A004AAEB3 /* Manchester United.png */,
+				1E7D85AE1E7FCB1A004AAEB3 /* Man City.png */,
+				1E7D85AF1E7FCB1A004AAEB3 /* Man United.png */,
 				1E7D85B01E7FCB1A004AAEB3 /* Middlesbrough.png */,
 				1E7D85B11E7FCB1A004AAEB3 /* Southampton.png */,
-				1E7D85B21E7FCB1A004AAEB3 /* Stoke.png */,
+				1E7D85B21E7FCB1A004AAEB3 /* Stoke City.png */,
 				1E7D85B31E7FCB1A004AAEB3 /* Sunderland.png */,
-				1E7D85B41E7FCB1A004AAEB3 /* Swansea_City.png */,
+				1E7D85B41E7FCB1A004AAEB3 /* Swansea City.png */,
 				1E7D85B51E7FCB1A004AAEB3 /* Tottenham.png */,
 				1E7D85B61E7FCB1A004AAEB3 /* Watford.png */,
-				1E7D85B71E7FCB1A004AAEB3 /* West Bromwich Albion.png */,
+				1E7D85B71E7FCB1A004AAEB3 /* West Bromwich.png */,
 				1E7D85B81E7FCB1A004AAEB3 /* West Ham.png */,
 			);
 			name = Resource;
@@ -246,25 +246,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E7D85C31E7FCB1A004AAEB3 /* Manchester United.png in Resources */,
+				1E7D85C31E7FCB1A004AAEB3 /* Man United.png in Resources */,
 				1E7D85CA1E7FCB1A004AAEB3 /* Watford.png in Resources */,
-				1E7D85CB1E7FCB1A004AAEB3 /* West Bromwich Albion.png in Resources */,
+				1E7D85CB1E7FCB1A004AAEB3 /* West Bromwich.png in Resources */,
 				1E7D85B91E7FCB1A004AAEB3 /* Bournemouth.png in Resources */,
 				1E7D85BB1E7FCB1A004AAEB3 /* Burnley.png in Resources */,
 				1E7D85BA1E7FCB1A004AAEB3 /* Arsenal.png in Resources */,
 				1E7D85C51E7FCB1A004AAEB3 /* Southampton.png in Resources */,
 				1E486C331E76831200ECC1E9 /* LaunchScreen.storyboard in Resources */,
-				1E7D85C21E7FCB1A004AAEB3 /* Manchester City.png in Resources */,
+				1E7D85C21E7FCB1A004AAEB3 /* Man City.png in Resources */,
 				1E7D85C11E7FCB1A004AAEB3 /* Liverpool.png in Resources */,
 				1E7D85C91E7FCB1A004AAEB3 /* Tottenham.png in Resources */,
 				1E7D85BD1E7FCB1A004AAEB3 /* Crystal Palace.png in Resources */,
-				1E7D85BF1E7FCB1A004AAEB3 /* Hull.png in Resources */,
+				1E7D85BF1E7FCB1A004AAEB3 /* Hull City.png in Resources */,
 				1E486C301E76831200ECC1E9 /* Assets.xcassets in Resources */,
 				1E7D85C71E7FCB1A004AAEB3 /* Sunderland.png in Resources */,
 				1E486C2E1E76831200ECC1E9 /* Main.storyboard in Resources */,
-				1E7D85C81E7FCB1A004AAEB3 /* Swansea_City.png in Resources */,
-				1E7D85C01E7FCB1A004AAEB3 /* Leicester.png in Resources */,
-				1E7D85C61E7FCB1A004AAEB3 /* Stoke.png in Resources */,
+				1E7D85C81E7FCB1A004AAEB3 /* Swansea City.png in Resources */,
+				1E7D85C01E7FCB1A004AAEB3 /* Leicester City.png in Resources */,
+				1E7D85C61E7FCB1A004AAEB3 /* Stoke City.png in Resources */,
 				1E7D85CC1E7FCB1A004AAEB3 /* West Ham.png in Resources */,
 				1E7D85BE1E7FCB1A004AAEB3 /* Everton.png in Resources */,
 				1E7D85C41E7FCB1A004AAEB3 /* Middlesbrough.png in Resources */,
@@ -328,7 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E7D85A31E7FBE70004AAEB3 /* DetailMatchCell.swift in Sources */,
-				1E486C2B1E76831200ECC1E9 /* ViewController.swift in Sources */,
+				1E61C2371E84D3F300621406 /* CalendarVC.swift in Sources */,
 				1E3708FF1E825C2000976930 /* TabBarVC.swift in Sources */,
 				1E486C291E76831200ECC1E9 /* AppDelegate.swift in Sources */,
 				1E7D85A01E7F8244004AAEB3 /* Match.swift in Sources */,

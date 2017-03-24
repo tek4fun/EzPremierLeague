@@ -10,5 +10,10 @@ import UIKit
 import BFPaperTabBarController
 
 class TabBarVC: BFPaperTabBarController{
+    var informations = [Match]()
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+    }
     
 }

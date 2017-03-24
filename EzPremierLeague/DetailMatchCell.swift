@@ -10,6 +10,13 @@ import UIKit
 
 class DetailMatchCell: UITableViewCell {
 
+    @IBOutlet weak var img_Team1: UIImageView!
+    @IBOutlet weak var lbl_Team1: UILabel!
+    @IBOutlet weak var lbl_Team1Score: UILabel!
+    @IBOutlet weak var img_Team2: UIImageView!
+    @IBOutlet weak var lbl_Team2: UILabel!
+    @IBOutlet weak var lbl_Team2Score: UILabel!
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
