@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="dIl-QQ-HO9">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Ranking-->
+        <scene sceneID="4dW-Om-H0S">
+            <objects>
+                <viewController id="t2Y-6D-k6o" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6mg-mP-uun"/>
+                        <viewControllerLayoutGuide type="bottom" id="Brl-gS-Bh1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DzL-pm-Dhx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Premier League" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eni-JY-F1u">
+                                <rect key="frame" x="0.0" y="28" width="375" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Eni-JY-F1u" firstAttribute="top" secondItem="6mg-mP-uun" secondAttribute="bottom" constant="8" id="TWh-qd-Yv7"/>
+                            <constraint firstItem="Eni-JY-F1u" firstAttribute="leading" secondItem="DzL-pm-Dhx" secondAttribute="leading" id="rAz-qD-5Bi"/>
+                            <constraint firstAttribute="trailing" secondItem="Eni-JY-F1u" secondAttribute="trailing" id="wFB-2n-g3c"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Ranking" id="kDN-SY-cyq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wj7-sA-In5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1256.8" y="2.2488755622188905"/>
+        </scene>
+        <!--Calendar-->
+        <scene sceneID="u2A-19-LIH">
+            <objects>
+                <tableViewController title="Calendar" id="zCG-IK-prh" customClass="CalendarVC" customModule="EzPremierLeague" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Wem-9V-Iee">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <label key="tableHeaderView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Premier League" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zzG-Ue-UDi">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="74"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.60784313725490191" green="0.14901960784313725" blue="0.68627450980392157" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="qiN-Lv-jyU" customClass="DetailMatchCell" customModule="EzPremierLeague" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="102" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qiN-Lv-jyU" id="dq6-w7-BsE">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Arsenal.png" translatesAutoresizingMaskIntoConstraints="NO" id="RZG-jI-5GU">
+                                            <rect key="frame" x="216.5" y="0.0" width="40" height="43"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="40" id="PUZ-d6-Y0T"/>
+                                                <constraint firstAttribute="height" constant="43" id="jQi-wl-YlK"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Team 2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y9E-es-fne">
+                                            <rect key="frame" x="266.5" y="0.0" width="50.5" height="43"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bournemouth.png" translatesAutoresizingMaskIntoConstraints="NO" id="BYw-TR-OX3">
+                                            <rect key="frame" x="118.5" y="0.0" width="40" height="43"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="40" id="XDc-gt-HAQ"/>
+                                                <constraint firstAttribute="height" constant="43" id="hnN-TZ-GRo"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yuv-dR-psv">
+                                            <rect key="frame" x="183.5" y="11" width="8" height="20.5"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QFC-Be-yRe">
+                                            <rect key="frame" x="198" y="3" width="10.5" height="37"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rRi-s8-7fx">
+                                            <rect key="frame" x="166.5" y="3" width="10.5" height="37"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Team1" textAlignment="right" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mdy-3Y-cJC">
+                                            <rect key="frame" x="65" y="0.0" width="43.5" height="43"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="rRi-s8-7fx" firstAttribute="leading" secondItem="BYw-TR-OX3" secondAttribute="trailing" constant="8" id="1tu-MS-Fac"/>
+                                        <constraint firstAttribute="bottom" secondItem="Y9E-es-fne" secondAttribute="bottom" id="2U4-jH-wfL"/>
+                                        <constraint firstAttribute="bottom" secondItem="rRi-s8-7fx" secondAttribute="bottom" constant="3" id="5dH-GD-xXO"/>
+                                        <constraint firstAttribute="bottom" secondItem="QFC-Be-yRe" secondAttribute="bottom" constant="3" id="6jz-tK-boa"/>
+                                        <constraint firstAttribute="bottom" secondItem="Mdy-3Y-cJC" secondAttribute="bottom" id="6vL-Qi-NuK"/>
+                                        <constraint firstItem="QFC-Be-yRe" firstAttribute="leading" secondItem="Yuv-dR-psv" secondAttribute="trailing" constant="6.5" id="DuM-cG-lSY"/>
+                                        <constraint firstItem="RZG-jI-5GU" firstAttribute="top" secondItem="dq6-w7-BsE" secondAttribute="top" id="Eow-UN-ni5"/>
+                                        <constraint firstItem="Yuv-dR-psv" firstAttribute="centerX" secondItem="dq6-w7-BsE" secondAttribute="centerX" id="FCp-Cf-wKO"/>
+                                        <constraint firstAttribute="bottom" secondItem="RZG-jI-5GU" secondAttribute="bottom" id="GVo-m0-Sur"/>
+                                        <constraint firstItem="BYw-TR-OX3" firstAttribute="top" secondItem="dq6-w7-BsE" secondAttribute="top" id="LgD-ej-62j"/>
+                                        <constraint firstItem="Yuv-dR-psv" firstAttribute="leading" secondItem="rRi-s8-7fx" secondAttribute="trailing" constant="6.5" id="RAi-68-Pz9"/>
+                                        <constraint firstItem="Mdy-3Y-cJC" firstAttribute="top" secondItem="dq6-w7-BsE" secondAttribute="top" id="ULh-Ba-If3"/>
+                                        <constraint firstItem="RZG-jI-5GU" firstAttribute="leading" secondItem="QFC-Be-yRe" secondAttribute="trailing" constant="8" id="c2m-Id-fUV"/>
+                                        <constraint firstAttribute="bottom" secondItem="BYw-TR-OX3" secondAttribute="bottom" id="cXT-jQ-Pmi"/>
+                                        <constraint firstItem="Yuv-dR-psv" firstAttribute="centerY" secondItem="dq6-w7-BsE" secondAttribute="centerY" id="eon-iU-0Cj"/>
+                                        <constraint firstItem="QFC-Be-yRe" firstAttribute="top" secondItem="dq6-w7-BsE" secondAttribute="top" constant="3" id="jmH-Fa-qK5"/>
+                                        <constraint firstItem="Y9E-es-fne" firstAttribute="top" secondItem="dq6-w7-BsE" secondAttribute="top" id="lDk-A0-Oa2"/>
+                                        <constraint firstItem="Y9E-es-fne" firstAttribute="leading" secondItem="RZG-jI-5GU" secondAttribute="trailing" constant="10" id="qGA-ZC-NNc"/>
+                                        <constraint firstItem="BYw-TR-OX3" firstAttribute="leading" secondItem="Mdy-3Y-cJC" secondAttribute="trailing" constant="10" id="tTH-F1-0Fy"/>
+                                        <constraint firstItem="rRi-s8-7fx" firstAttribute="top" secondItem="dq6-w7-BsE" secondAttribute="top" constant="3" id="wWc-XT-Exb"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="img_Team1" destination="BYw-TR-OX3" id="ccc-u4-gsy"/>
+                                    <outlet property="img_Team2" destination="RZG-jI-5GU" id="S8X-kA-NH3"/>
+                                    <outlet property="lbl_Team1" destination="Mdy-3Y-cJC" id="QrZ-bm-nlR"/>
+                                    <outlet property="lbl_Team1Score" destination="rRi-s8-7fx" id="egq-5y-e8A"/>
+                                    <outlet property="lbl_Team2" destination="Y9E-es-fne" id="eMU-aG-bvL"/>
+                                    <outlet property="lbl_Team2Score" destination="QFC-Be-yRe" id="YIp-70-yyn"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="zCG-IK-prh" id="bKg-GB-MHp"/>
+                            <outlet property="delegate" destination="zCG-IK-prh" id="XFC-6m-xdB"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Calendar" id="WSh-Es-Hg1"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4OW-Lk-hSO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1256.8" y="-738.08095952023996"/>
+        </scene>
+        <!--Tab BarVC-->
+        <scene sceneID="5Em-To-rVL">
+            <objects>
+                <tabBarController id="dIl-QQ-HO9" customClass="TabBarVC" customModule="EzPremierLeague" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Vhg-Qb-cfl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="zCG-IK-prh" kind="relationship" relationship="viewControllers" id="7wu-Td-48k"/>
+                        <segue destination="t2Y-6D-k6o" kind="relationship" relationship="viewControllers" id="6DN-LK-wif"/>
+                        <segue destination="l9S-tA-TfF" kind="relationship" relationship="viewControllers" id="AVW-zK-j6O"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZAD-4o-u5a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="306" y="-397"/>
+        </scene>
+        <!--Top Player-->
+        <scene sceneID="WDZ-Ng-Wnx">
+            <objects>
+                <viewController id="l9S-tA-TfF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YUt-nQ-Ce0"/>
+                        <viewControllerLayoutGuide type="bottom" id="KLM-FZ-WM6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5sY-B8-6xR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Premier League" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Owm-0p-oOk">
+                                <rect key="frame" x="0.0" y="28" width="375" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Owm-0p-oOk" firstAttribute="top" secondItem="YUt-nQ-Ce0" secondAttribute="bottom" constant="8" id="Qh6-h9-Wpo"/>
+                            <constraint firstItem="Owm-0p-oOk" firstAttribute="leading" secondItem="5sY-B8-6xR" secondAttribute="leading" id="hx7-XG-Pns"/>
+                            <constraint firstAttribute="trailing" secondItem="Owm-0p-oOk" secondAttribute="trailing" id="lA6-cZ-zTY"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Top Player" id="0LJ-hN-d2e" userLabel="Top Player"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cm3-iS-h4U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1256.8" y="676.91154422788611"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Arsenal.png" width="600" height="723"/>
+        <image name="Bournemouth.png" width="600" height="789"/>
+    </resources>
+</document>
